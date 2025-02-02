@@ -26,6 +26,8 @@ button{
 .main {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 72px 0 112px 0;
     
 }
