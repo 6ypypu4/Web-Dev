@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+
+*:focus{
+    text-decoration: dotted;
+}
+
+/*carusel*/
+
+.photo{
+    width: 100%;
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: content-box;
+    flex-wrap: wrap;
+    
+}
+
+/*header*/
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.header_microsoft{
+    display: block;
+    padding: 16px 6px 16px 10px;
+    width: 121px;
+    height: 22px;
+}
+
+.header_img{
+    box-sizing: border-box;
+    display: block;
+    height: 23px;
+    margin-top: -3px;
+    width: 108px;
+}
+
+
+
+a.header_link{
+    display: inline;
+    padding: 17px 9px 11px 19px;
+}
+
+a.header_ling:hover{
+    text-decoration: underline ;
+}
+
+.our_products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 12px;
+}
+
+.card{
+    margin: 24px 16px;
+
+}
+
+.card a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: underline;
+
+}
+.card img{
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*our products*/
+.articles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: content-box;
+    flex-wrap: wrap;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    max-width: 21%;
+    min-width: 180px;
+    margin: 0px 12px;
+    box-shadow:  1px 1px 2px 1px rgba(0, 0, 0, 0.1),
+                 -1px 0px 2px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer
+    ;}
+
+.article img{
+    width: 100%;
+}
+
+.card_body{
+    padding: 24px 24px 0 24px;
+}
+
+.card_body h2{
+    margin-bottom: 12px;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.card_body div{ 
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.article .card_footer{
+    display: block;
+    margin-top: auto;
+    padding: 16px 16px 24px 16px;
+
+}
+
+.card_footer button{
+    border: 2px solid white;
+    background-color: rgb(0, 103, 184);
+    padding: 12px 10px;
+    font-weight: 600;
+    color:  white;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+}
