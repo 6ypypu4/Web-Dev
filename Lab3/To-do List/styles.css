@@ -1,0 +1,84 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  /* Base styles for the document */
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #444;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+  }
+  input{
+    min-width: 300px;
+    padding: 12.5px;
+  }
+  
+  input:focus{
+    outline: none;
+  }
+
+  button{
+    background-color: #fff;
+
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+  }
+
+  button:hover{
+    background-color: aliceblue;
+  }
+  /* Header Section */
+  .heading {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 15px;
+  }
+  
+  /* Main container */
+  .main {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .add_task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .items{
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    gap: 10px;
+  }
+
+  .item{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #444;
+    margin: 5px 0px;
+  }
+
+  .completed{
+    text-decoration: line-through;
+  }
